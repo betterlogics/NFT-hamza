@@ -1,0 +1,9 @@
+.nav-link h5:hover{
+    color:rgb(240, 66, 2);
+}
+.bg-img{
+    background-image: url(/asets/images/0aa169d9-f4cb-48e5-b6fc-704fca9eb735.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+  
+}
