@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.one{
+/* .one{
     border: 5px solid red;
-}
+} */
 .nav-link h5:hover{
     color:rgb(240, 66, 2);
 }
