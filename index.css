@@ -212,8 +212,6 @@
 
 
 
-
-
 #slider {
     position: relative;
     width: 50%;
@@ -344,4 +342,11 @@
     margin-right: 30px !important;
     /* color: red !important; */
 
+  }
+
+  .border-warning:hover{
+    color: black;
+  }
+  #bg-img{
+    background-color: #161634;
   }
