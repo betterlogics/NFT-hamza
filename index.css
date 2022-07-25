@@ -334,3 +334,14 @@
   .border1{
     border: 1px solid  #fd562a !important;
   }
+  /* .testing a{
+   
+    text-align: center;
+    align-items: center;
+  } */
+  .abc a{
+
+    margin-right: 30px !important;
+    /* color: red !important; */
+
+  }
