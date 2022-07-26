@@ -5,13 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <title>NFT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/about.html">
+
+
+
    
 
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+  
+        body {
+          background: #161634;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+  
+        .swiper {
+          width: 100%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+  
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height: 300px;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        }
+      </style>
+    </head>
 </head>
 
 <body class="one">
@@ -439,7 +484,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-dark py-5">
+    <!-- <div class="container-fluid bg-dark py-5">
         <div id="slider">
 
 
@@ -458,7 +503,35 @@
             <label for="s5" id="slide5"><img src="/asets/images/1140.png" alt=""></label>
 
         </div>
-    </div>
+    </div> -->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/asets/images/166.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asets/images/2132.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asets/images/275.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asets/images/99.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asets/images/39.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asets/images/73.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asets/images/289.png" />
+          </div>
+        
+        </div>
+      
+      </div>
 
 
 <!-- --------------------------second last section--------------------------------- -->
@@ -577,9 +650,40 @@
 
 
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              effect: "coverflow",
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: "auto",
+              Loop:"auto",
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script>
 </body>
 
 </html>

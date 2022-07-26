@@ -265,6 +265,7 @@
     align-items: center;
     justify-content: center;
     transition: transform 400ms ease;
+    
   }
   
   
@@ -344,9 +345,9 @@
 
   }
 
-  .border-warning:hover{
+  /* .border-warning:hover{
     color: black;
-  }
+  } */
   #bg-img{
     background-color: #161634;
   }
