@@ -193,7 +193,24 @@
     background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, .7), rgba(148, 31, 95, .8), #4f2155, #161634);
 
 }
-
+.pb-5 img{
+  width: 80%;
+  animation: mint 5s infinite;
+  animation-duration: alternate;
+  }
+  @keyframes mint{
+     0%{
+        transform: translatey(0);
+    }
+    50%{
+        transform: translatey(-10% );
+    }
+    100%{
+     transform: translatey(0 );
+  }
+  
+  
+  }
 
 
 
